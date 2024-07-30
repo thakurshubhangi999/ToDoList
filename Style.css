@@ -31,8 +31,10 @@ body{
     margin-top: 6rem;
     margin-bottom: 2rem;
     font-size: 4rem;
-    color: #ffffff;
-    letter-spacing: 3px;
+    color:#000428c2;
+    letter-spacing: 6px;
+    text-shadow: 2px 4px rgb(110, 109, 122);
+    font-weight: 800;
 }
 .input-container input[type="text"] {
     padding: 12px;
@@ -46,7 +48,7 @@ body{
 }
 .input-container input[type="button"] {
     border-radius: 30px;
-    background-color: #153448;
+    background-color: #151835c2;
     color: #a2a3a5;
     cursor: pointer;
     font-weight: 600;
@@ -91,13 +93,13 @@ ul li p{
     color: #b3b0b0;
     cursor: pointer;
 }
-.dltBtn{
+.deleteBtn{
     background-color: rgba(247, 6, 6, 0.2);
 }
 .editBtn{
     background-color: rgba(7, 3, 122, 0.2);
 }
-.dltBtn:hover{
+.deleteBtn:hover{
     background-color: #5d0404;
 }
 .editBtn:hover{
